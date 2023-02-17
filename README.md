@@ -12,7 +12,7 @@ Open up terminal, navigate to where the downloaded folder is and type the follow
 ```javascript
 node index.js
 ```
-A new index.html file will be created now. Try opening it in a browser to see the results!
+Answer the questions that pop up in the terminal window and once finished a new index.html file will be created. Try opening it in a browser to see the results!
 
 ![](./images/quiz-screenshot.png)
 
