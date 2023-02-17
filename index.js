@@ -1,4 +1,3 @@
-// const inquirer = require("inquirer");
 import inquirer from "inquirer";
 import fs from "fs";
 
@@ -30,8 +29,8 @@ inquirer
     },
   ])
 
+  // HTML file created with answers from above inserted
   .then((answer) => {
-    // console.log("hello " + answer.user_name);
     fs.writeFile(
       "./index.html",
       `
